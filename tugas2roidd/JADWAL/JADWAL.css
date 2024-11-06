@@ -1,0 +1,36 @@
+body{
+    background: url(epep.jpg);
+    background-size: 100%;
+  }
+  .conten{
+    border: 2px;
+    padding: 10px ;
+    border-radius: 10px;
+    text-align: center;
+    color:white;
+  }
+  table{
+    text-align: center;
+    overflow-x: auto;
+    width: 100%;
+     max-width:100%;
+     border-collapse: collapse;
+  }
+  #tabel{
+    border: 2px rgb(255, 255, 255);
+    background-color: rgba(22, 108, 207, 0.562);
+    margin: 20px 0 20px 0;
+    
+  }
+  th{
+    width: 15px;
+    height:30px;
+    align-items: center;
+    justify-content: center;
+  }
+  th:hover{
+    background-color: #15cffd ;
+  }
+  h2:hover{
+    color: aquamarine;
+  }

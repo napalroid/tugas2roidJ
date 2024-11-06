@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(../JADWAL/epep.jpg) no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125vh;
+    padding: 20px;
+    margin: 0;
+}
+.form-container{
+    background-color: aliceblue;
+    border: 2px dashed #78fa44;
+    border-radius: 90px;
+    padding: 50px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba( 0, green 0, blue 0, alpha 1);
+}
+.form-container h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group label{
+display:block;
+margin-bottom: 5px;
+color: #000;
+}
+.form-group input
+.form-group select,
+.form-group textarea{
+    width: 100%;
+    padding:  1px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.form-group input[type="radio"],
+.form-group input[type="checkbox"]{
+    width: auto;
+    margin-right: 5px;
+}
+.form-group .gender-label,
+.form-group .food-label
+.form-group .suka-label {
+    display: inline-block;
+    margin-right: 5px;
+}
+.form-actions {
+    display: flex;
+   justify-content: space-around;
+}
+.form-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-actions .reset-btn {
+    background-color: #db4e4e;
+    color: #fff;
+}
+.form-actions .submit-btn {
+    background-color: #00804b;
+    color: #fff;
+}
